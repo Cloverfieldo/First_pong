@@ -2,7 +2,8 @@ local player = {}
 player.x = 30
 player.y = 300
 player.width = 20
-player.height = 50
+player.height = 70
+player.player = true
 
 function player.update(dt)
   if love.keyboard.isDown('up', 'w') then
